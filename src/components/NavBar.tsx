@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { CustomButton } from '@/components/CustomButton'
 import { Menu, X } from 'lucide-react'
 
@@ -15,8 +14,8 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-white w-full">
       <div className="container mx-auto flex items-center justify-between px-4 text-lg">
         <div className="flex items-center justify-between font-mono py-4 w-full">
-          <Link href="/" className="flex items-center space-x-2">
-            <Image src="/lambda.webp" alt="Lambda Logo" width={120} height={40} />
+          <Link href="/" className="flex text-2xl font-bold items-center space-x-2">
+            AI Scaler
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">

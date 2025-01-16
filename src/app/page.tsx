@@ -9,17 +9,17 @@ export default function Home() {
     {
       title: "NVIDIA H100",
       image: "/h100.jpg",
-      description: "Lambda is one of the first cloud providers to make NVIDIA H100 Tensor Core GPUs available on-demand in a public cloud."
+      description: "AI Scaler is one of the first cloud providers to make NVIDIA H100 Tensor Core GPUs available on-demand in a public cloud."
     },
     {
       title: "NVIDIA H200",
       image: "/h200.webp",
-      description: "Lambda Private Cloud is now available with the NVIDIA H200 Tensor Core GPU. H200 is packed with 141GB of HBM3e running at 4.8TB/s."
+      description: "AI Scaler Private Cloud is now available with the NVIDIA H200 Tensor Core GPU. H200 is packed with 141GB of HBM3e running at 4.8TB/s."
     },
     {
       title: "NVIDIA GH200",
       image: "/h300.webp",
-      description: "Lambda Private Cloud is now available with the NVIDIA GH200 Grace Hopper™ Superchip. A single GH200 has 576 GB of coherent memory."
+      description: "AI Scaler Private Cloud is now available with the NVIDIA GH200 Grace Hopper™ Superchip. A single GH200 has 576 GB of coherent memory."
     }
   ];
 
@@ -169,24 +169,28 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-3 gap-12">
             {gpus.map((gpu, index) => (
-              <Link 
-                href="#"
-                key={index} 
-                className="block w-full max-w-[320px] h-auto leading-[0] mb-20 relative border-2 border-dotted border-[#4027ff] transition-colors duration-300 ease-out text-black hover:bg-[#4027ff] hover:text-white group"
-              >
-                <h5 className="absolute left-4 top-4 z-10 transition-colors duration-300 ease-out font-mono">
-                  {gpu.title}
-                </h5>
-                <div className="relative w-full">
-                  <Image
-                    src={gpu.image || "/placeholder.svg"}
-                    alt={gpu.title}
-                    width={320}
-                    height={320}
-                    className="w-full h-auto m-0 max-w-[320px] translate-x-9 translate-y-14"
-                  />
-                </div>
-              </Link>
+              <div key={index} >
+                <Link 
+                  href="#"
+                  className="block w-full max-w-[320px] h-auto leading-[0] mb-20 font-semibold relative border-2 border-dotted border-[#4027ff] transition-colors duration-300 ease-out text-black hover:bg-[#4027ff] hover:text-white group"
+                >
+                  <h5 className="absolute left-4 top-4 z-10 transition-colors duration-300 ease-out font-mono">
+                    {gpu.title}
+                  </h5>
+                  <div className="relative w-full">
+                    <Image
+                      src={gpu.image || "/placeholder.svg"}
+                      alt={gpu.title}
+                      width={320}
+                      height={320}
+                      className="w-full h-auto m-0 max-w-[320px] translate-x-9 translate-y-14"
+                    />
+                  </div>
+                </Link>
+                <p className="text-center text-lg font-semibold mt-4">
+                  {gpu.description}
+                </p>
+              </div>  
             ))}
           </div>
         </div>
@@ -198,7 +202,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl font-mono text-white">
-                Lambda Stack is used by more than{" "}
+                AI Scaler is used by more than{" "}
                 <span className="bg-white text-black px-2">50k ML teams</span>
               </h2>
               <p className="text-white">

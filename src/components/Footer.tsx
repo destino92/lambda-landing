@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -7,9 +6,9 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-16">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12">
             <div>
-                <Link href="/" className="flex items-center space-x-2">
-                    <Image src="/lambda.webp" alt="Lambda Logo" width={120} height={40} />
-                </Link>
+              <Link href="/" className="flex text-2xl font-bold items-center space-x-2 text-white">
+                AI Scaler
+              </Link>
             </div>
             <div className="space-y-4">
               <h3 className="font-mono text-lg text-white">Resources</h3>
