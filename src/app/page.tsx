@@ -212,8 +212,8 @@ export default function Home() {
                 Learn more
               </CustomButton>
             </div>
-            <div className="hidden md:block">
-              <Cube className="w-40 h-40 text-white opacity-50" />
+            <div className="hidden md:block w-full">
+              <Cube strokeWidth={1} absoluteStrokeWidth className="h-80 w-60 text-white mx-auto" />
             </div>
           </div>
         </div>
