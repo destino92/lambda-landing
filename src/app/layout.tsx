@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Lambda - The AI Developer Cloud',
+  title: 'AI Scaler - The AI Developer Cloud',
   description: 'On-demand NVIDIA GPU instances & clusters for AI training & inference.',
 };
 
