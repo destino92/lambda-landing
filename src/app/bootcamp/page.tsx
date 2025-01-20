@@ -119,7 +119,7 @@ export default function Home() {
             </p>
             <p className="mb-6">
                 You will learn from the world-class faculty of Berkeley Executive Education, a prestigious institution ranked among the top five in the U.S. 
-                News & World Report Best Global Universities Rankings, through a program developed in collaboration with UC Berkeley's College of Engineering 
+                News & World Report Best Global Universities Rankings, through a program developed in collaboration with UC Berkeley&apos;s College of Engineering 
                 and the Haas School of Business. Throughout this six-month program, you will develop practical, hands-on experience using cutting-edge ML/AI 
                 tools and platforms. In addition, you will receive valuable career guidance to help you navigate and succeed in this fast-paced industry. 
                 This program is designed to equip you with the market-ready skills you need to launch a fulfilling career in ML/AI.
