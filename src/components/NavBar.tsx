@@ -19,9 +19,7 @@ const Navbar = () => {
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="#" className="hover:text-[#4027ff]">Cloud</Link>
             <Link href="#" className="hover:text-[#4027ff]">Data Center</Link>
-            <Link href="#" className="hover:text-[#4027ff]">Desktops</Link>
             <Link href="#" className="hover:text-[#4027ff]">Company</Link>
             <Link href="#" className="hover:text-[#4027ff]">Resources</Link>
             <Link href="/bootcamp" className="hover:text-[#4027ff]">Bootcamp</Link>

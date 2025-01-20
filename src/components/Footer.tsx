@@ -13,9 +13,7 @@ const Footer = () => {
             <div className="space-y-4">
               <h3 className="font-mono text-lg text-white">Resources</h3>
               <ul className="space-y-3">
-                <li><Link href="#" className="text-white hover:text-white">GPU Benchmarks</Link></li>
                 <li><Link href="#" className="text-white hover:text-white">Blog</Link></li>
-                <li><Link href="#" className="text-white hover:text-white">Lambda Stack</Link></li>
                 <li><Link href="#" className="text-white hover:text-white">Documentation</Link></li>
                 <li><Link href="/bootcamp" className="text-white hover:text-white">Bootcamp</Link></li>
               </ul>
