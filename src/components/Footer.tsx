@@ -17,6 +17,7 @@ const Footer = () => {
                 <li><Link href="#" className="text-white hover:text-white">Blog</Link></li>
                 <li><Link href="#" className="text-white hover:text-white">Lambda Stack</Link></li>
                 <li><Link href="#" className="text-white hover:text-white">Documentation</Link></li>
+                <li><Link href="/bootcamp" className="text-white hover:text-white">Bootcamp</Link></li>
               </ul>
             </div>
             <div className="space-y-4">
@@ -36,7 +37,7 @@ const Footer = () => {
             </div>
             <div className="space-y-4">
               <h3 className="font-mono text-lg text-white">Contact</h3>
-              <p className="text-white">P. 1 (866) 711-2025</p>
+              <p className="text-white">+1 (415) 609-2306 <br /> +242 06 965 9379</p>
             </div>
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center mt-12 pt-8 border-t border-gray-800">

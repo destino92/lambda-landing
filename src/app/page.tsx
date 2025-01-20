@@ -25,48 +25,13 @@ export default function Home() {
 
   return (
     <div className="min-h-screen">
-      {/* Top Banner */}
-      {/* <div className="bg-[#4339F2] p-3 text-center text-sm text-white">
-        <p>
-          Don&apos;t miss out on NVIDIA Blackwell!{" "}
-          <Link href="#" className="underline">
-            Join the waitlist.
-          </Link>
-        </p>
-      </div> */}
-
-      {/* Navigation */}
-      {/* <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
-        <div className="container mx-auto flex items-center justify-between py-6 px-4">
-          <Link href="/" className="flex items-center space-x-2">
-            <Image src="lamb.webp" alt="Lambda Logo" width={120} height={40} />
-          </Link>
-
-          <div className="hidden md:flex items-center space-x-8">
-            <Link href="#" className="text-sm text-gray-600 hover:text-gray-900">Cloud</Link>
-            <Link href="#" className="text-sm text-gray-600 hover:text-gray-900">Data Center</Link>
-            <Link href="#" className="text-sm text-gray-600 hover:text-gray-900">Desktops</Link>
-            <Link href="#" className="text-sm text-gray-600 hover:text-gray-900">Company</Link>
-            <Link href="#" className="text-sm text-gray-600 hover:text-gray-900">Resources</Link>
-          </div>
-
-          <div className="flex items-center space-x-4">
-            <CustomButton variant="secondary">
-              Login
-            </CustomButton>
-            <CustomButton variant="primary">
-              Create account
-            </CustomButton>
-          </div>
-        </div>
-      </nav> */}
 
       {/* Hero Section */}
       <section className="bg-white">
         <div className="container mx-auto px-4 py-32">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
-              <h1 className="text-6xl md:text-8xl font-mono leading-tight">
+              <h1 className="text-4xl md:text-6xl font-mono leading-tight">
                 The{" "}
                 <span className="bg-black text-white px-2 inline-block">
                   AI Developer
