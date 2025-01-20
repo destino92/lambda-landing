@@ -90,7 +90,7 @@ export default function Home() {
             {/* <div className="hidden md:block border-r-2 border-dotted border-white h-20"></div> */}
             <div className="text-center">
               <p className="text-sm">PROGRAM FEE</p>
-              <p className="font-bold text-lg">300000 Cfa</p>
+              <p className="font-bold text-lg">$500 ( or 300 000 cfa )</p>
             </div>
           </div>
         </div>
