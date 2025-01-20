@@ -8,12 +8,12 @@ export default function Home() {
     {
       icon: BookOpenCheck,
       title: "Learn from globally recognized faculty",
-      description: "Learn from UC Berkeley's globally recognized faculty",
+      description: "Learn from sillicon valley expert",
     },
     {
       icon: GraduationCap,
       title: "Earn a certificate of completion",
-      description: "Earn a certificate of completion from UC Berkeley Executive Education",
+      description: "Earn a A CPD accredited Alison Certificate certifies the skills you&apos;ve learned",
     },
     {
       icon: Brain,
@@ -118,9 +118,7 @@ export default function Home() {
                 You will gain practical insights into the business applications of these technologies and discover the full extent of their potential.
             </p>
             <p className="mb-6">
-                You will learn from the world-class faculty of Berkeley Executive Education, a prestigious institution ranked among the top five in the U.S. 
-                News & World Report Best Global Universities Rankings, through a program developed in collaboration with UC Berkeley&apos;s College of Engineering 
-                and the Haas School of Business. Throughout this six-month program, you will develop practical, hands-on experience using cutting-edge ML/AI 
+                You will learn from the world-class sillicon valley expert from Google, TikTok, Yahoo ... Throughout this six-month program, you will develop practical, hands-on experience using cutting-edge ML/AI 
                 tools and platforms. In addition, you will receive valuable career guidance to help you navigate and succeed in this fast-paced industry. 
                 This program is designed to equip you with the market-ready skills you need to launch a fulfilling career in ML/AI.
             </p>
@@ -241,7 +239,7 @@ export default function Home() {
                 {features.map((feature, index) => (
                   <div
                     key={index}
-                    className={`relative flex md:flex-col md:items-center ${index >= 3 ? "md:col-span-2 lg:col-span-1" : ""}`}
+                    className={`relative flex md:flex-col md:items-center`}
                   >
                     {/* Mobile layout (horizontal) */}
                     <div className="flex gap-4 md:flex-col md:items-center md:text-center">

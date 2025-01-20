@@ -46,7 +46,7 @@ export default function Home() {
                 <CustomButton variant="primary" href="#">
                   Launch GPU instance
                 </CustomButton>
-                <CustomButton variant="secondary" href="#">
+                <CustomButton variant="secondary" href="mailto:hello@aiscaler.ai">
                   Contact sales
                 </CustomButton>
               </div>
@@ -207,7 +207,7 @@ export default function Home() {
               <div className="w-full sm:w-1/2 p-[30px] sm:p-14 text-left sm:text-center">
                 <CustomButton 
                   variant="primary" 
-                  href="https://cloud.lambdalabs.com/sign-up"
+                  href="/#"
                 >
                   Launch GPU instances
                 </CustomButton>
@@ -215,7 +215,7 @@ export default function Home() {
               <div className="w-full sm:w-1/2 p-[30px] sm:p-14 text-left sm:text-center sm:border-l-2 sm:border-dotted sm:border-white">
                 <CustomButton 
                   variant="secondary" 
-                  href="https://lambdalabs.com/talk-to-an-engineer?hsLang=en"
+                  href="mailto:hello@aiscaler.ai"
                 >
                   Contact sales
                 </CustomButton>
