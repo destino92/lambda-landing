@@ -86,7 +86,7 @@ export default function CTAForm() {
                 <FormItem>
                   <FormLabel>Phone Number</FormLabel>
                   <FormControl>
-                    <PhoneInput {...field} />
+                    <PhoneInput {...field} defaultCountry="US" />
                   </FormControl>
                   <FormDescription>Please enter your phone number.</FormDescription>
                   <FormMessage />

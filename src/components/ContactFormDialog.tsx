@@ -24,7 +24,7 @@ export function ContactFormDialog({ thankYou }: ContactFormDialogProps) {
       </DialogTrigger>
       <DialogContent className={thankYou ? "sm:max-w-xl" : "sm:max-w-[425px]"}>
         {open &&
-          (thankYou ? (
+          (thankYou === "success" ? (
             <ThankYou />
           ) : (
             <ContactForm />

@@ -27,6 +27,8 @@ export const newsLetterAction = actionClient
         cookieStore.set({
             name: 'thank_you',
             value: 'success',
+            secure: process.env.NODE_ENV === "production",
+            sameSite: "lax",
             httpOnly: true,
             path: '/',
         })
