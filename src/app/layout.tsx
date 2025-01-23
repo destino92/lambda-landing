@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import { siteConfig } from "@/config/site";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,6 +24,32 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'AI Scaler - The AI Developer Cloud',
   description: 'On-demand NVIDIA GPU instances & clusters for AI training & inference.',
+    keywords: [
+      "AI",
+      "scaling",
+      "african cloud",
+      "AI bootcamp",
+      "NVIDIA",
+      "GPU",
+      "Kubernetes",
+      "Monitoring",
+      "auto scaling",
+    ],
+    creator: "Destino DELLO",
+    openGraph: {
+      type: "website",
+      locale: "en_US",
+      url: siteConfig.url,
+      title: siteConfig.name,
+      description: siteConfig.description,
+      siteName: siteConfig.name,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: siteConfig.name,
+      description: siteConfig.description,
+      creator: "@DestinoDello",
+    },
 };
 
 export default function RootLayout({

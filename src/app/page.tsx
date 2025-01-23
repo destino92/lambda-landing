@@ -167,8 +167,8 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl font-mono text-white">
-                AI Scaler is used by more than{" "}
-                <span className="bg-white text-black px-2">50k ML teams</span>
+                AI Scaler is used by {" "}
+                <span className="bg-white text-black px-2">ML teams</span>
               </h2>
               <p className="text-white">
                 One-line installation and managed upgrade path for: PyTorch®, TensorFlow, NVIDIA® CUDA®, NVIDIA CuDNN®, and NVIDIA Drivers
