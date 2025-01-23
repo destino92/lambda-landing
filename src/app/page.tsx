@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { CustomButton } from "@/components/CustomButton"
-import { Grid3x3, Zap, Database, CuboidIcon as Cube, BinaryIcon, PiggyBankIcon } from 'lucide-react'
+import { Grid3x3, Zap, Database, BinaryIcon, PiggyBankIcon } from 'lucide-react'
 import MagnetLines from '@/components/MagnetLines/MagnetLines'
 
 export default function Home() {
