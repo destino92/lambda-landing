@@ -192,11 +192,11 @@ function Programs() {
             </AccordionTrigger>
             <AccordionContent className="pb-2 text-black">
               {item.content.map((subItem) => (
-                <div key={subItem.id} className="mb-2">
-                  <h4 className="text-lg font-semibold">{subItem.title}</h4>
+                <div key={subItem.id} className="mb-2 ml-5">
+                  <h6 className="text-lg font-semibold"><span className="bg-black text-white px-2 inline-block">{subItem.title}</span></h6>
                   <ul className="list-disc pl-5">
                     {subItem.description.map((desc, index) => (
-                      <li key={index}>{desc}</li>
+                      <li className="" key={index}>{desc}</li>
                     ))}
                   </ul>
                 </div>

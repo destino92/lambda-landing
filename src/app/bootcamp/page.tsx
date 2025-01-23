@@ -2,8 +2,10 @@ import { CustomButton } from "@/components/CustomButton"
 import { BookOpenCheck, Brain, Calendar, CheckIcon, FileCode, GitBranch, GraduationCap } from 'lucide-react'
 import { Programs } from "@/components/ui/accordion-with-chevron"
 import Image from "next/image"
+import { ContactFormDialog } from "@/components/ContactFormDialog"
+import { getThankYouCookie } from "@/lib/cookies"
 
-export default function Home() {
+export default async function Home() {
   const features = [
     {
       icon: BookOpenCheck,
@@ -46,6 +48,8 @@ export default function Home() {
     "Communicating ML/AI concepts through presentation skills",
   ]
 
+  const thankYouStatus = await getThankYouCookie() ?? "false"
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -65,9 +69,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-wrap gap-6">
-                <CustomButton variant="primary" href="#">
-                    Download brochure
-                </CustomButton>
+              <ContactFormDialog thankYou={thankYouStatus} />
             </div>
           </div>
         </div>
@@ -147,9 +149,9 @@ export default function Home() {
       <section className="bg-black ">
         <div className="container mx-auto px-4 py-32">
             <h2 className="text-3xl md:text-4xl font-mono text-center mb-16 max-w-4xl mx-auto leading-tight text-white">
-                Who Is This Program For?
+              <span className="bg-white text-black px-2 inline-block">Who Is This Program For?</span>
             </h2>
-            <div className="w-2/3 mx-auto text-white">
+            <div className="w-2/3 mx-auto text-lg text-center text-white">
                 <p className="">
                     This program is designed to provide participants with the essential knowledge and practical applications of ML/AI
                     tools and frameworks needed to transition into a high-demand career in this field. This program is open to everyone.
@@ -191,7 +193,7 @@ export default function Home() {
       <section className="bg-white">
         <div className="container mx-auto px-4 py-32 border-t border-black border-dashed">
             <h2 className="text-3xl md:text-4xl font-mono text-center mb-16 max-w-4xl mx-auto leading-tight text-black">
-                Program Topics
+                Program <span className="bg-black text-white px-2 inline-block">Topics</span>
             </h2>
             <div className="w-2/3 mx-auto text-black">
                 <p className="mb-4">
@@ -201,11 +203,9 @@ export default function Home() {
                 <Programs />
             </div>
             <div className="flex flex-col items-center text-black">
-                <div className="mt-4">
-                    <CustomButton variant="primary" href="#">
-                        Download brochure
-                    </CustomButton>
-                </div>
+              <div className="mt-4">
+                <ContactFormDialog thankYou={thankYouStatus} />
+              </div>
             </div>
         </div>
       </section>
@@ -318,9 +318,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-wrap gap-6">
-                <CustomButton variant="primary" href="#">
-                  Download brochure
-                </CustomButton>
+                <ContactFormDialog thankYou={thankYouStatus} />
               </div>
             </div>
         </div>
@@ -337,9 +335,7 @@ export default function Home() {
                 Earn a professional certificate accredited by the United Kingdom CPD Certification Service
               </p>
               <div className="flex flex-wrap gap-6">
-                <CustomButton variant="primary" href="#">
-                  Download brochure
-                </CustomButton>
+                <ContactFormDialog thankYou={thankYouStatus} />
               </div>
             </div>
             <div className="order-first md:order-last md:basis-1/3 w-full">

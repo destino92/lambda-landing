@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html 
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} scroll-smooth`}
+      className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} smooth-scroll`}
     >
       <body className="bg-white text-black min-h-screen flex flex-col">
         {/* Top Banner */}
