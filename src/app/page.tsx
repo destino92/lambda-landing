@@ -178,7 +178,7 @@ export default function Home() {
               </CustomButton>
             </div>
             <div className="hidden md:block w-full">
-              <Cube strokeWidth={1} absoluteStrokeWidth className="h-80 w-60 text-white mx-auto" />
+              <Image src="/ml.jpg" alt="ML team" width="256" height="176" className="text-white mx-auto" />
             </div>
           </div>
         </div>
