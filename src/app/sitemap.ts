@@ -8,13 +8,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteConfig.url}/`,
       lastModified: new Date(),
     },
-    // {
-    //   url: `${siteConfig.url}/academy`,
-    //   lastModified: new Date(),
-    // },
-    // {
-    //   url: `${siteConfig.url}/voulez-travailler-pour-tiktok-ou-tesla`,
-    //   lastModified: new Date(),
-    // },
+    {
+      url: `${siteConfig.url}/academy`,
+      lastModified: new Date(),
+    },
+    {
+      url: `${siteConfig.url}/voulez-travailler-pour-tiktok-ou-tesla`,
+      lastModified: new Date(),
+    },
   ];
 }

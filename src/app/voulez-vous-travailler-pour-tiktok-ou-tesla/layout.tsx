@@ -11,7 +11,7 @@ export const metadata = {
   openGraph: {
     title: "Voulez vous travailler pour Tiktok ou Tesla ?",
     description: "",
-    url: "https://aiscaler.ai",
+    url: "https://aiscaler.ai/voulez-vous-travailler-pour-tiktok-ou-tesla",
   },
   twitter: {
     title: "Voulez vous travailler pour Tiktok ou Tesla ?",
