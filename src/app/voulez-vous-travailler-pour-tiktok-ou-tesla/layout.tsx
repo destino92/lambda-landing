@@ -1,10 +1,9 @@
 import "./tiktok.css"
-import { Montserrat, Source_Serif_4 as Source_Serif_Pro } from "next/font/google"
+import { Montserrat } from "next/font/google"
 import Script from "next/script"
 import type React from "react" // Import React
 
 const montserrat = Montserrat({ subsets: ["latin"] })
-const sourceSerifPro = Source_Serif_Pro({ subsets: ["latin"], weight: ["400", "600"] })
 
 export const metadata = {
   title: "Voulez vous travailler pour Tiktok ou Tesla ?",
@@ -42,7 +41,7 @@ export default function RootLayout({
           href="../../../com/hubspotpagebuilder/bmh-advertising-49147926/voulez-vous-travailler-pour-tiktok-ou-tesla.html"
         />
       </head>
-      <body className={`${montserrat.className} ${sourceSerifPro.variable}`}>
+      <body className={`${montserrat.className}`}>
         {children}
         <Script id="hs-script-loader" src="/hs/hsstatic/HubspotToolsMenu/static-1.393/js/index.js" />
         <Script id="hs-analytics" strategy="afterInteractive">
