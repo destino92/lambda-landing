@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Copy all the styles from the original HTML file here */
+a.cta_button {
+  -moz-box-sizing: content-box !important;
+  -webkit-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  vertical-align: middle;
+}
+.hs-breadcrumb-menu {
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+/* ... include all other styles from the original HTML ... */
+

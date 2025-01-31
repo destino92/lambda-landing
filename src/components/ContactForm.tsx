@@ -12,7 +12,7 @@ import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, For
 import { Input } from "@/components/ui/input"
 import { formSchema } from "@/lib/schema"
 import { useAction } from "next-safe-action/hooks";
-import { newsLetterAction } from "@/app/bootcamp/_actions/index"
+import { newsLetterAction } from "@/app/(website)/bootcamp/_actions/index"
 import { z } from "zod"
 import { PhoneInput } from "./PhoneInput"
 
