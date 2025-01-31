@@ -11,7 +11,7 @@ export const metadata = {
   openGraph: {
     title: "Voulez vous travailler pour Tiktok ou Tesla ?",
     description: "",
-    url: "https://bmh-advertising-49147926.hubspotpagebuilder.com/voulez-vous-travailler-pour-tiktok-ou-tesla",
+    url: "https://aiscaler.ai",
   },
   twitter: {
     title: "Voulez vous travailler pour Tiktok ou Tesla ?",
